@@ -17,22 +17,22 @@
 
 <style>
 
-.NO1{width:1920px;height:850px;}
+
 .box_tou{position:absolute;top:46%;}
 .leftarrow{float:left;margin-left:50px;}
 .rightarrow{float:right;margin-left:1600px;}
 .header{font-family:"微软雅黑"; font-size:16px; position:absolute;top:20px;right:18%;}
-.header a{color:grey;text-decoration:none; display:block; padding-left:20px;padding-right:20px;float:left;}
-.header a:hover{color:black;}
+.header a{color:#090909;text-decoration:none; display:block; padding-left:20px;padding-right:20px;float:left;}
+.header a:hover{color:#999;}
 .box_about{height:120px; font-family: Microsoft New Tai L...;font-size:30px;}
 .box_about p{ text-align:center;padding-top:20px;padding-bottom:20px;}
-.photo{padding-left:50%;}
-.introduce{font-family:"微软雅黑 Light";font-size:18px;letter-spacing:2px;padding-top:26px;padding-left:100px;color:#232323;line-height:2; font-weight:bold;}
+.photo{padding-left:55%;padding-top:50px;}
+.introduce{font-family:"微软雅黑 Light";font-size:18px;letter-spacing:2px;padding-top:26px;padding-left:180px;color:#232323;line-height:2.5; font-weight:bold;}
 .box_about img{display:block;margin-left:49%;}
 .box_skill{height:120px; font-family: Microsoft New Tai L...;font-size:30px;padding-top:50px;}
 .box_skill p{ text-align:center;padding-top:20px;padding-bottom:20px;}
 .box_skill img{display:block;margin-left:49%;}
-.software{background-image:url(images/software.png);height:450px;background-repeat:no-repeat;margin-top:60px;}
+.software{background-image: url(images/flash_ji.png);height:357px;background-repeat:no-repeat;margin-top:60px; background-attachment: fixed;}
 .ware_box{margin-left:400px;margin-top:100px;}
 .software p{display:block;float:left;padding:46px;color:#FCF9F9;font-size:18px;}
 .production{background-image:url(images/back.png);background-repeat:no-repeat;height:1100px;}
@@ -40,15 +40,15 @@
 .box_works p{text-align:center;padding-top:10px;padding-bottom:20px;}
 .box_works img{display:block;margin-left:49%;}
 .ping{display:block;padding-left:178px;position:absolute;margin-top:-160px;}
-.text_wang{font-family:"微软雅黑 Light"; font-size:24px;display:block;position:absolute;margin-top:-165px;margin-left:134px;color:#FFFFFF;letter-spacing:4px;}
-.text_ping{font-family:"微软雅黑 Light"; font-size:24px;display:block;position:absolute;margin-top:-168px;margin-left:120px;color:#FFFFFF;letter-spacing:4px;}
-.text_u{font-family:"微软雅黑 Light"; font-size:24px;display:block;position:absolute;margin-top:-168px;margin-left:150px;color:#FFFFFF;letter-spacing:4px;}
-.text_me{font-family:"微软雅黑 Light"; font-size:16px;margin-top:100px;width:1000px;margin-left:auto;margin-right:auto; text-align:center;line-height:2;}
+.text_wang{font-family:"微软雅黑 Light"; font-size:24px;display:block;position:absolute;margin-top:-165px;margin-left:134px;color:#FFFFFF;letter-spacing:4px;color:#2F2D2D;}
+.text_ping{font-family:"微软雅黑 Light"; font-size:24px;display:block;position:absolute;margin-top:-168px;margin-left:120px;color:#FFFFFF;letter-spacing:4px;color:#2F2D2D;}
+.text_u{font-family:"微软雅黑 Light"; font-size:24px;display:block;position:absolute;margin-top:-168px;margin-left:150px;color:#FFFFFF;letter-spacing:4px;color:#2F2D2D;}
+.text_me{font-family:"微软雅黑 Light"; font-size:16px;width:1000px;margin-left:auto;margin-right:auto; text-align:center;line-height:3;}
 .first_pic{display:block;padding-right:100px;padding-bottom:30px;}
 .first_left{margin-top:60px;padding-left:400px;}
 .first_right{margin-top:60px;padding-left:216px;}
 .two_pic{display:block;padding-bottom:30px;}
-.first_left_a{margin-top:25px;padding-left:400px;}
+.first_left_a{margin-top:25px;}
 .first_right_b{margin-top:25px;margin-left:-188px;}
 .botton{color:#FFFFFF;font-family:"微软雅黑 Light";letter-spacing:2px;font-size:18px;width:230px;height:50px;border:#FFFFFF solid 1px;left:1120px;text-align:center;top:550px; font-weight:bold;position:absolute;}
 .jiahao {
@@ -61,25 +61,26 @@
 .jiahao_b{background:rgba(0,0,0,0);border:none;position:absolute;top:50%;left:50%;
 	background-image:url(images/zhankai.png);height:100px;width:100px;background-repeat:no-repeat;
 	height:22px;width:22px;}
+.contact{background-image:url(images/bg.png);background-repeat:no-repeat;width:1920px;height:400px;font-size:55px;color:#F7F7F7;}
+.contact p{display:block;padding-left:40%;padding-top:2%;letter-spacing:4px;}
+.contact img{display:block;padding-left:48%;padding-top:1%;}
 </style>
 </head>
 
 <body>
 <div class="row">
-	<div class="col-md-12 NO1">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 NO1">
 <!-- 代码 开始 -->
   <div id="playBox">
-  	<div class="header">
-            	<a href="#">首页</a>
-                <a href="#">关于</a>
-                <a href="#">技能 </a>
-                <a href="#">作品</a>
-                <a href="#">联系</a>
-                
-                
+  	<div class="header" style="z-index:999;">
+            	<a href="">首页</a>
+                <a href="#last_about">关于</a>
+                <a href="#last_skill">技能 </a>
+                <a href="#last_work">作品</a>
+                <a href="#last_daily">联系</a>
             </div>
-    <div class="pre"></div>
-    <div class="next"></div>
+    <div class="pre" style="margin-left:3%;margin-top:11%;"><img src="images/leftarrow.png"></div>
+    <div class="next" style="margin-right:5%;margin-top:11%;"><img src="images/rightarrow.png"></div>
     <div class="smalltitle">
       <ul>
         <li class="thistitle"></li>
@@ -88,17 +89,20 @@
         
       </ul>
     </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <ul class="oUlplay">
-       <li><a href="http://www.lanrentuku.com/" target="_blank"><img src="images/banner.png"></a></li>
-       <li><a href="http://www.lanrentuku.com/" target="_blank"><img src="images/banner_01.png"></a></li>
-       <li><a href="http://www.lanrentuku.com/" target="_blank"><img src="images/banner_02.png"></a></li>
+       <li><img src="images/MEIXIN.png"></a></li>
+       <li><img src="images/banner_2.png"></a></li>
+       <li><img src="images/banner_3.png"></a></li>
     </ul>
+    </div>
   </div>
 <!-- 代码 结束 -->
    		
 	</div>
     
 </div>
+<div id="last_about">
 <div class="box_about">
 	<p>ABOUT ME</p>
     <img src="images/about-line.png">
@@ -106,8 +110,8 @@
 
 </div>
 <div class="row" style="padding-top:20px;">
-    <div class="col-md-6"><img class="photo"  style="display:block"src="images/photo.png"></div>
-   <div class="col-md-6 introduce ">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><img class="photo"  style="display:block"src="images/photo.png"></div>
+   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 introduce ">
         姓名:金美鑫<br>
 
         年龄:24<br>
@@ -119,22 +123,31 @@
         邮箱:   312163884@qq.com
 		</div>
 	</div>
-   
+  </div>  
+    
+    
+ <div id="last_skill">  
  <div class="box_skill">
 	<p>MY SKILLS</p>
     <img src="images/about-line.png">
 </div>
-<div class="col-md-12 software" >
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 software" >
 	
 </div>
-<div class="box_works">
+</div>
+
+
+<!--works-->
+<div id="last_work">
+
+	<div class="box_works">
 	<p>MY WORKS</p>
     <img src="images/about-line.png">
 </div>
-<div style="background-image:url(images/back.png);background-repeat:no-repeat;height:3000px;margin-top:520px;">
+<div style="background-image:url(images/back.png);background-repeat:no-repeat;height:900px;margin-top:520px;">
 	<div class="row">
   		<div class="col-md-4" style="margin-top:230px;padding-left:405px;">
-        <img src="images/images/work_03.png">
+        <img src="images/work_1.png">
         <!-- Button trigger modal -->
 <button type="button" class="jiahao" data-toggle="modal" data-target="#myModal">
 
@@ -161,11 +174,11 @@
 <!--modal end-->
 <!--button trigger modal end-->
         </div>
-  		<div class="col-md-4" style="margin-top:230px;padding-left:140px;">
-        <div style="width:378px;height:311px;overflow:hidden;">
+  		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin-top:230px;padding-left:140px;">
+        <div style="width:378px;height:309px;overflow:hidden;">
          <!--第二个-->
          <figure class="effect-chico">
-            <img class="web_photo" src="images/images/works_04.jpg">
+            <img class="web_photo" src="images/work_2.png">
             <figcaption>
                 <h2>平面<span>设计</span></h2>
                 <p>logo、画册、海报、</p>
@@ -179,7 +192,7 @@
         </p>
         </div>
   		<div class="col-md-4" style="margin-top:230px;margin-left:-143px;" >
-        <img src="images/images/works_05.jpg">
+        <img src="images/work_3.png">
          <!-- Button trigger modal -->
 <button type="button" class="jiahao_a" data-toggle="modal" data-target="#myModal">
 
@@ -208,11 +221,11 @@
         </div>
      </div>
      <div class="row">
-  		<div class="col-md-4" style="padding-left:410px;">
-        	<div style="width:378px;height:311px;overflow:hidden;">
+  		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left:406px;">
+        	<div style="width:378px;height:309px;overflow:hidden;">
                 <!--第二个-->
          <figure class="effect-chico1">
-            <img class="pignmian_photo" src="images/images/works_09.jpg">
+            <img class="pignmian_photo" src="images/work_4.png">
             <figcaption class="two_ping1">
                 <h2>平面<span>设计</span></h2>
                 <p>logo、画册、海报、</p>
@@ -223,8 +236,8 @@
         	</div>
         		<p class="text_ping">平面设计</p>
         </div>
-  		<div class="col-md-4" style="padding-left:140px;">
-        <img src="images/images/works_10.jpg">
+  		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left:140px;">
+        <img src="images/work_5.png">
          <!-- Button trigger modal -->
 <button type="button" class="jiahao_b" data-toggle="modal" data-target="#myModal">
 
@@ -251,12 +264,12 @@
 <!--modal end-->
 <!--button trigger modal end-->
         </div>
-  		<div class="col-md-4" style="margin-left:-143px;">
-        	<div style="width:378px;height:311px;overflow:hidden;">
+  		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin-left:-143px;">
+        	<div style="width:378px;height:309px;overflow:hidden;">
             	
                  <!--第二个-->
          <figure class="effect-chico2">
-            <img class="ui_photo" src="images/images/works_08.jpg">
+            <img class="ui_photo" src="images/work_6.png">
             <figcaption class="two_ping2">
                 <h2>平面<span>设计</span></h2>
                 <p>logo、画册、海报、</p>
@@ -267,34 +280,97 @@
             </div>
                 <p class="text_u">ui设计</p></div>
      </div>
-<div class="text_me">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. Maecenas at massa eget orci porttitor semper. Sed lobortis magna in faucibus commodo. Ut purus odio, gravida sit amet laoreet at, dictum et urna. 
-John Henry Doe, ABC Company, St. Louis
+ </div>
+ </div>
+ <div class="back_behind" style=" background-image:url(images/behinddd.png); background-repeat:no-repeat;height:1400px; background-position:-20px -100px; background-attachment:fixed;">    
+     <!--works-->
+<div class="box_works">
+	<p style="padding-top:60px;color:#FFFFFF;">MY HOBBIES</p>
+    <img src="images/about-line.png">
 </div>
+
+	<div class="text_me" style="padding-top:40px;color:#FFFFFF;">
+I'm not perfect&nbsp;&nbsp;but I keep trying cause that's <br>
+ what I said I would do from the start.
+	</div>
+ 
+
 <div class="row">
-  <div class="col-md-6 first_right">
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 first_right">
    <!-- 代码 开始 -->
-<div class="container">
-    <div class="grid">
-  
-        <figure class="effect-ruby">
-            <img src="images/images/works_13.jpg">
-            <figcaption>
-                <h2>Glowing <span>Ruby</span></h2>
-                <p>Ruby did not need any help. Everybody knew that.</p>
-                <a href="http://www.lanrentuku.com/" target="_blank">View more</a>
-            </figcaption>			
-        </figure>
-        
-       
-    </div>
+	<div class="container">
+    	<div class="grid" style="width:870px;margin-left:29px;">
+			<figure class="effect-ruby">
+            	<img src="images/3.jpg">
+            	<figcaption>
+                	<h2>Glowing <span>Ruby</span></h2>
+                	<p>Ruby did not need any help. Everybody knew that.</p>
+                	
+            	</figcaption>			
+        	</figure>
+		</div>
 </div>
 <!-- 代码 结束 -->
-  </div>
-  <div class="col-md-6 first_left_a"></div>
-  <div class="col-md-6 first_right_b"></div>
-  
 </div>
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 first_left_a"> <!-- 代码 开始 -->
+	<div class="container" style="margin-left:-17.7%;margin-top:34px;">
+    	<div class="grid" style="width:870px;height:400px;">
+  			<figure class="effect-milo" >
+            	<img src="images/5.jpg">
+            	<figcaption>
+                
+                	<p>Milo went to the woods. He took a fun ride and never came back.</p>
+                	
+            	</figcaption>			
+        	</figure>
+    	</div>
+	</div>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 first_left_a"> <!-- 代码 开始 -->
+	<div class="container" style="margin-left:24.5%;margin-top:-15px;">
+    	<div class="grid" style="width:870px;height:400px;">
+  			<figure class="effect-milo">
+            	<img src="images/5.jpg">
+            	<figcaption>
+                
+                	<p>Milo went to the woods. He took a fun ride and never came back.</p>
+                	
+            	</figcaption>			
+        	</figure>
+    	</div>
+	</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 first_right">
+   <!-- 代码 开始 -->
+	<div class="container">
+    	<div class="grid" style="width:870px;margin-left:-32.1%;margin-top:-50px">
+			<figure class="effect-ruby" style="margin-left:-270px;">
+            	<img src="images/3.jpg">
+            	<figcaption>
+                	<h2>Glowing <span>Ruby</span></h2>
+                	<p>Ruby did not need any help. Everybody knew that.</p>
+            	</figcaption>			
+        	</figure>
+		</div>
+</div>
+<!-- 代码 结束 -->
+</div>
+</div>
+</div>
+<!--daily end-->
+<div class="contact">
+	<p>CONTACT ME</p>
+    <p style="font-size:14px;display:block;padding-left:44%;letter-spacing:4px;">GET IN TOUCH WITH ME</p>
+    <img style="display:block; padding-top:60px;padding-left:48.5%;" src="images/hover.png">
+    
+</div>
+
+
+
 
 
 
